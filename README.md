@@ -42,7 +42,7 @@ A modern website for a bakery business built with HTML5 and CSS3. The site featu
 ## 📁 File Structure
 
 ```
-bakery-website/
+Task 6/
 ├── index.html
 ├── css/
 │   ├── style.css

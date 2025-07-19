@@ -47,6 +47,8 @@ Task 6/
 ├── css/
 │   ├── style.css
 │   └── all.min.css
+│   └── bootstrap.min.css
+│   └── media.css
 ├── images/
 │   └── images/
 │       ├── bakery-light-1.png
@@ -58,6 +60,10 @@ Task 6/
 │       ├── clem-onojeghuo-206832-600x500.jpg
 │       ├── contact-details-map.png
 │       └── arrow.png
+├── js/
+│   └── bootstrap.bundle.min.js
+├── webfonts/
+│   
 └── README.md
 ```
 

@@ -14,47 +14,84 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
   </head>
   <body>
+    
     <!-- & --------header ----------->
     <header>
-      <div class="container">
-        <nav>
-          <div class="logo">
-            <img src="../images/images/bakery-light-1.png" alt="" />
-          </div>
-          <div class="nav-links">
-            <ul>
-              <li>
-                <a href="" class="active">Home</a>
-              </li>
-              <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Our Offer</a>
-              </li>
-              <li>
-                <a href="">Gallery</a>
-              </li>
-              <li class="drop">
-                <a href="">Blog</a>
-                <ul class="drop-down">
-                  <li><a href="">Blog index</a></li>
-                  <li><a href="">Simple post</a></li>
-                  <li><a href="">Gallery post</a></li>
-                  <li><a href="">Base post</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <div class="logo">
+              <img src="./images/images/bakery-color.png" alt="">
+            </div>
+            <div class="logo-pc">
+              <img src="./images/images/bakery-light-1.png" alt="" />
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars fa-1x"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active pe-3" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item pe-3">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item pe-3">
+                  <a class="nav-link" href="#">Our Offer</a>
+                </li>
+            
+                <li class="nav-item pe-3">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item dropdown pe-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog index</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Simple post</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gallery post</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Base post</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                  <li class="nav-item pe-4">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
-
+      <div class="container">
         <div class="header-content">
           <p class="welcome">Welcome to</p>
           <h1>Family Bakery</h1>
@@ -74,13 +111,13 @@
     <section class="about">
       <div class="container">
         <div class="about-content">
-          <div class="about-img">
+          <div class="about-img ">
             <img
               src="./images/images/alexandru-stavrica-170390-800x760.jpg"
               alt=""
             />
           </div>
-          <div class="about-txt">
+          <div class="about-txt ps-lg-5">
             <div class="title">
               <h2>Who we are?</h2>
               <p>
@@ -154,7 +191,7 @@
         </div>
 
         <div class="cards">
-          <div class="card">
+          <div class="card-mine">
             <div class="card-img">
               <img
                 src="./images/images/ben-garratt-134774-600x500.jpg"
@@ -171,7 +208,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card-mine">
             <div class="card-img">
               <img src="./images/images/stas-ovsky-123540-600x500.jpg" alt="" />
             </div>
@@ -185,7 +222,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card-mine">
             <div class="card-img">
               <img
                 src="./images/images/clem-onojeghuo-206832-600x500.jpg"
@@ -262,7 +299,7 @@
     <footer>
       <div class="container">
         <div class="cols">
-          <div class="col">
+          <div class="col-mine">
             <div class="col-title">
               <h4>About us</h4>
             </div>
@@ -280,7 +317,7 @@
               </p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-mine">
             <div class="col-title">
               <h4>Why we are special?</h4>
             </div>
@@ -321,9 +358,9 @@
               </ul>
             </div>
           </div>
-          <div class="col">
+          <div class="col-mine">
             <div class="col-title">
-              <h4>Why we are special?</h4>
+              <h4>Opening Hours</h4>
             </div>
             <div class="footer-list">
               <ul>
@@ -368,7 +405,7 @@
               </ul>
             </div>
           </div>
-          <div class="col">
+          <div class="col-mine">
             <div class="col-title">
               <h4>Contact Details</h4>
             </div>
@@ -433,5 +470,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
